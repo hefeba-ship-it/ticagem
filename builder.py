@@ -1,7 +1,7 @@
 from io import BytesIO
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font
-from parser import RomaneioRecord
+from vuupt_parser import RomaneioRecord
 
 
 HEADERS = {

@@ -4,7 +4,7 @@ from fastapi.responses import Response, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
-from parser import parse_txt
+from vuupt_parser import parse_txt
 from builder import load_prev_day, load_prev_day_full, build_xlsx
 
 app = FastAPI(title="Ticagem Processor")
